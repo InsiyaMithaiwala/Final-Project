@@ -1,22 +1,23 @@
-.btns {
+.btnn {
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 15rem;
-  height: 15rem;
+  width: 13rem;
+  height: 13rem; 
+  overflow: hidden;
   background-size: 300% 300%;
   backdrop-filter: blur(1rem);
-  border-radius: 100%;
+  border-radius: 50%; 
   transition: 0.5s;
   animation: gradient_301 5s ease infinite;
   border: double 4px transparent;
   background-image: linear-gradient(#212121, #212121),
     linear-gradient(
       137.48deg,
-      #ffdb3b 10%,
-      #fe53bb 45%,
-      #8f51ea 67%,
-      #0044ff 87%
+      #453280 10%,
+      #7f7da7d0 45%,
+      #af38cf 67%,
+      #feb200d7 87%
     );
   background-origin: border-box;
   background-clip: content-box, border-box;
@@ -30,16 +31,16 @@
   overflow: hidden;
   transition: 0.5s;
   backdrop-filter: blur(1rem);
-  border-radius: 100%;
+  border-radius: 5rem;
 }
 
 strong {
   z-index: 2;
-  font-family: "Avalors Personal Use";
-  font-size: 12px;
-  letter-spacing: 5px;
+  font-family: "Poppins" sans-serif;
+  font-size: 16px;
+  letter-spacing: 3px;
   color: #ffffff;
-  text-shadow: 0 0 4px white;
+  text-shadow: 0 0 4px rgb(0, 0, 0);
 }
 
 #glow {
@@ -57,30 +58,30 @@ strong {
 }
 
 .circle:nth-of-type(1) {
-  background: rgba(254, 83, 186, 0.636);
+  background: rgba(0, 0, 1860 0.936);
 }
 
 .circle:nth-of-type(2) {
-  background: rgba(142, 81, 234, 0.704);
+  background: rgba(0, 0, 1860 0.936);
 }
 
-.btns:hover #container-starss {
+.btnn:hover #container-starss {
   z-index: 1;
   background-color: #212121;
 }
 
-.btns:hover {
+.btn:hover {
   transform: scale(1.1);
 }
 
-.btns:active {
+.btnn:active {
   border: double 4px #fe53bb;
   background-origin: border-box;
   background-clip: content-box, border-box;
   animation: none;
 }
 
-.btns:active .circle {
+.btnn:active .circle {
   background: #fe53bb;
 }
 

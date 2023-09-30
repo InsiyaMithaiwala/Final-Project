@@ -39,8 +39,16 @@ app.get("/aboutus", function (req, res) {
   res.render("aboutus");
 });
 
+app.get("/contactus", function (req, res) {
+  res.render("contactus");
+});
+
 app.get("/login", function (req, res) {
   res.render("login");
+});
+
+app.get("/nftmap", function (req, res) {
+  res.render("nftmap");
 });
 
 app.get("/register", function (req, res) {

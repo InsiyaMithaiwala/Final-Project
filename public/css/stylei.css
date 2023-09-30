@@ -18,11 +18,6 @@ nav ul li a {
   font-weight: 600;
 }
 
-/* START : Footer */
-
-/* END : Footer */
-
-/* Start : Home page first hero section */
 .top-hero-section {
   background-color: #3498db;
   color: white;
@@ -34,29 +29,23 @@ nav ul li a {
 .qualities-img {
   width: 200px;
 }
-/* END : Home page first hero section */
 
-/* START : Home page 3rd requirement section */
 .requirements-section {
   background-color: #004d80;
   color: white;
 }
 
-/* END : Home page 4rd newsletter section */
+
 
 .clients-section {
   background-color: #f0f0f0;
 }
 
-/* END-------------------- of home page ---------------------- */
 
-/* START-------------------- of About page ---------------------- */
 .breadcrumbs-section {
   background-color: #e9ecef;
 }
-/* END-------------------- of About page ---------------------- */
 
-/* START-------------------- of Contact Us Page ---------------------- */
 .address p {
   font-weight: 600;
 }
