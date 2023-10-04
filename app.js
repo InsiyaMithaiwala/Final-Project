@@ -47,12 +47,12 @@ app.get("/login", function (req, res) {
   res.render("login");
 });
 
-app.get("/nftmap", function (req, res) {
-  res.render("nftmap");
-});
-
 app.get("/register", function (req, res) {
   res.render("register");
+});
+
+app.get("/nftmap", function (req, res) {
+  res.render("nftmap");
 });
 
 app.post("/register", function (req, res) {
