@@ -1,4 +1,6 @@
 # Final-Project
+Network Graph displaying NFT collections connected to each other via common users buying and selling. Each link is a NFT collection and each edge represents 5 or more common buyers/sellers
+
 ![image](https://github.com/InsiyaMithaiwala/Final-Project/assets/130983978/cb0542b6-4b76-44ee-8731-283c1fd05517)
 ![image](https://github.com/InsiyaMithaiwala/Final-Project/assets/130983978/3e5d8dba-47e7-43df-9045-40f1e8242346)
 ![image](https://github.com/InsiyaMithaiwala/Final-Project/assets/130983978/840a43f4-c3ca-49a0-8f78-41717f996472)
